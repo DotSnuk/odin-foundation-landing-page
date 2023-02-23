@@ -16,17 +16,23 @@ body {
     margin: 10px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+    margin: 0px;
 
 }
 
-.container, .header, body {
+.container, .header, .links, .hero, .left {
     display: flex;
+}
+
+.left {
+    flex-direction: column;
 }
 
 .logo {
@@ -35,7 +41,9 @@ body {
 }
 
 .links {
-
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 a {
