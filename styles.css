@@ -4,7 +4,6 @@ body {
     font-family: Roboto, serif;
     font-size: 48px;
     font-weight: 900;
-    background-color: #1f2937;
     justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
@@ -17,6 +16,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .container {
@@ -28,8 +28,15 @@ body {
 
 }
 
-.container, .header, .links, .hero, .left {
+.container, .header, .links, .hero, .left, .information {
     display: flex;
+}
+
+.information {
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    
 }
 
 .left {
@@ -45,6 +52,7 @@ body {
     justify-content: space-between;
     margin: 10px;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .hero-text {
