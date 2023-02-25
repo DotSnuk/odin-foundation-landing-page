@@ -34,6 +34,11 @@ body {
 
 .left {
     flex-direction: column;
+    flex: 1;
+}
+
+.right {
+    flex: 1;
 }
 
 .hero {
