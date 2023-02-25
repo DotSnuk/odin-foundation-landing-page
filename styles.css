@@ -5,16 +5,13 @@ body {
     font-size: 48px;
     font-weight: 900;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 0;
-    margin-top: 0px;
+    margin: 0;
 }
 
 .header {
-    margin: 10px;
+    margin: 0px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
 }
@@ -23,8 +20,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    margin: 0px;
-    gap: 50px;
+    margin: 0;
 
 }
 
@@ -42,15 +38,17 @@ body {
 .left {
     flex-direction: column;
     flex: 1;
+
 }
 
 .right {
     flex: 1;
+
 }
 
 .hero {
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
+    margin: 0;
     align-items: center;
     background-color: #1f2937;
 }
