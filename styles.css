@@ -6,6 +6,8 @@ body {
     font-weight: 900;
     justify-content: center;
     margin: 0;
+    flex-direction: column;
+
 }
 
 .header {
@@ -19,11 +21,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    margin: 0;
+    
 
 }
 
-.container, .header, .links, .hero, .left, .information {
+.container, .header, .links, .hero, .left, .information, body {
     display: flex;
 }
 
@@ -36,6 +38,7 @@ body {
 
 .left {
     flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
 
 }
