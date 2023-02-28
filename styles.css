@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+    
 }
 
 .container, .header, .links, .hero, .left, .right, .information {
@@ -37,14 +38,14 @@ body {
 
 .left {
     flex-direction: column;
-    
+    gap: 5px;
     flex: 1;
 
 }
 
 .right {
     flex: 1;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
 
@@ -53,6 +54,9 @@ body {
     background-color: #1f2937;
     padding-left: 150px;
     padding-right: 150px;
+    flex-basis: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -88,7 +92,7 @@ a {
 }
 
 .right > img {
-    width: 50%;
+    width: 80%;
 }
 
 button {
