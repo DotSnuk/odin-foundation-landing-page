@@ -25,8 +25,27 @@ body {
     
 }
 
-.container, .header, .links, .hero, .left, .right, .information {
+.container, .header, .links, .hero, .left, .right, .information, .info-cards, .card, .quote {
     display: flex;
+}
+
+.quote {
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    gap: 20px;
+}
+
+.quote-person {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
 }
 
 
@@ -36,6 +55,7 @@ body {
     background-color: white;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937
@@ -63,6 +83,12 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text {
@@ -112,12 +138,32 @@ button {
     
 }
 
+.info-cards {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .card {
     flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    text-align: center;
+    
+}
+
+.subtext {
+    font-size: 14px;
+    color: #1f2937;
 }
 
 .illustration {
-    border: 1px solid;
-    border-radius: 4px;
+    border: 3px solid;
+    border-radius: 10px;
     border-color: #3882f6;
+    min-width: 150px;
+    min-height: 150px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
