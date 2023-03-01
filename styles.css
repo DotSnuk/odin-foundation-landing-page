@@ -27,7 +27,7 @@ body {
 
 /* All flex containers */
 .container, .header, .links, .hero, .left, .right, .information, .info-cards, .card, .quote,
-.call-container, .blue-container, .call-text {
+.call-container, .blue-container, .call-text, .footer {
     display: flex;
 }
 
@@ -60,7 +60,7 @@ body {
     padding-bottom: 50px;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
 }
 
 .left {
@@ -205,5 +205,16 @@ button {
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
-    
+}
+
+.footer {
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    justify-content: center;
+    color: #e5e7eb;
+    font-weight: 100;
 }
