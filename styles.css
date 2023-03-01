@@ -25,7 +25,9 @@ body {
     
 }
 
-.container, .header, .links, .hero, .left, .right, .information, .info-cards, .card, .quote {
+/* All flex containers */
+.container, .header, .links, .hero, .left, .right, .information, .info-cards, .card, .quote,
+.call-container, .blue-container {
     display: flex;
 }
 
@@ -150,12 +152,29 @@ button {
     gap: 10px;
     flex: 1;
     text-align: center;
-    
 }
 
 .subtext {
     font-size: 14px;
     color: #1f2937;
+}
+
+.call-container {
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 150px;
+
+    justify-content: center;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    flex-basis: 90%;
+    margin: 40px;
 }
 
 .illustration {
